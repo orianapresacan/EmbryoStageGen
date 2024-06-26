@@ -1,5 +1,11 @@
 # Embryo Image Generation and Classification
 
+## [Paper](TBD) | [GitHub](https://github.com/orianapresacan/Embryo)
+
+<img src="./images/embryo_synthetic.jpg" width="800" height="150"/> 
+
+## Overview
+
 This repository contains code for training two generative models—a diffusion model and a generative adversarial network (GAN)—to produce synthetic images of embryos at various developmental stages. It also includes scripts for three classification models—ResNet, VGG, and Vision Transformer—used to classify these embryos.
 
 ## Repository Structure
