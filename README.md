@@ -2,7 +2,7 @@
 
 ## [Paper](TBD) | [GitHub](https://github.com/orianapresacan/Embryo)
 
-<img src="./images/embryo_synthetic.jpg" width="800" height="150"/> 
+<img src="./images/embryo_synthetic.jpg" width="750" height="150"/> 
 
 ## Overview
 
