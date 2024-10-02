@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains code for training two generative models—a diffusion model and a generative adversarial network (GAN)—to produce synthetic images of embryos at various developmental stages. It also includes scripts for three classification models—ResNet, VGG, and Vision Transformer—used to classify these embryos.
+This repository contains code for training two generative models—a diffusion model (LDM) and a generative adversarial network (StyleGAN2)—to produce synthetic images of embryos at various developmental stages: 2-cell, 4-cell, 8-cell, blastocyst, and morula. It also includes scripts for training and testing three classification models—ResNet, VGG, and Vision Transformer—used to classify these embryos.
 
 ## Repository Structure
 
@@ -29,6 +29,9 @@ The checkpoints for our trained latent diffusion models, corresponding to each c
 
 - `StyleGAN/` - Code for generating synthetic data using StyleGAN. The code is based on the repository available [here]().
 
+## Synthetic Dataset
+
+The embryo synthetic dataset containing images generated using the LDM and StyleGAN2 models can be found [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link). These images were used alongside the real dataset to train the classification models.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
