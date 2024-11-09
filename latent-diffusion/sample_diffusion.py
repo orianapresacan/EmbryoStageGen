@@ -128,11 +128,11 @@ def run(model, logdir, batch_size=50, vanilla=False, custom_steps=None, eta=None
             if n_saved >= n_samples:
                 print(f'Finish after generating {n_saved} samples')
                 break
-        all_img = np.concatenate(all_images, axis=0)
-        all_img = all_img[:n_samples]
-        shape_str = "x".join([str(x) for x in all_img.shape])
-        nppath = os.path.join(nplog, f"{shape_str}-samples.npz")
-        np.savez(nppath, all_img)
+        # all_img = np.concatenate(all_images, axis=0)
+        # all_img = all_img[:n_samples]
+        # shape_str = "x".join([str(x) for x in all_img.shape])
+        # nppath = os.path.join(nplog, f"{shape_str}-samples.npz")
+        # np.savez(nppath, all_img)
 
     else:
        raise NotImplementedError('Currently only sampling for unconditional models supported.')

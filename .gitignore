@@ -1,0 +1,4 @@
+*.ckpt
+*.pyc
+/latent-diffusion/.venv
+*.egg-info
