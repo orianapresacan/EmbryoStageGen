@@ -23,7 +23,7 @@ This repository contains code for training two generative models—a diffusion m
   
   - Use the following command for sampling:
   ```bash
-  python sample_diffusion.py --resume logs/[checkpoint-file] --n_samples 5000
+  python sample_diffusion.py --resume models/ldm/embryo/[checkpoint-file] --n_samples 10
   ```
 The checkpoints for our trained latent diffusion models, corresponding to each cell stage (2-cell, 4-cell, 8-cell, Morula, Blastocyst) can be downloaded from [this link](https://drive.google.com/drive/folders/19EnY1wUUA0ZQVfI5E3J6IAeAECmcFK3y?usp=drive_link).
 
