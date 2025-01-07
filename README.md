@@ -1,6 +1,6 @@
 # Embryo Image Generation and Classification
 
-## [Paper](TBD) | [GitHub](https://github.com/orianapresacan/Embryo)
+## [Paper](https://arxiv.org/abs/2412.01255) | [GitHub](https://github.com/orianapresacan/Embryo)
 
 <img src="./images/embryo_synthetic.jpg" width="750" height="150"/> 
 
