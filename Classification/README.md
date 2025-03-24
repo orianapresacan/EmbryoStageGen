@@ -38,7 +38,7 @@ data/
         ├── Blastocyst/
         └── Morula/
 ```
-The real dataset can be found [here]() and the synthetic dataset [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link).
+The real dataset can be found [here](https://zenodo.org/records/14253170) and the synthetic dataset [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link).
 
 The checkpoints for our trained classification models can be downloaded from [this link](https://drive.google.com/drive/folders/1UkpWeBqZlxUJ08KJxnIi-LNMhgfmWOSh?usp=drive_link).
 
