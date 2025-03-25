@@ -27,11 +27,14 @@ This repository contains code for training two generative models—a diffusion m
   ```
 The checkpoints for our trained latent diffusion models, corresponding to each cell stage (2-cell, 4-cell, 8-cell, Morula, Blastocyst) can be downloaded from [this link](https://drive.google.com/drive/folders/19EnY1wUUA0ZQVfI5E3J6IAeAECmcFK3y?usp=drive_link).
 
-- `StyleGAN/` - Code for generating synthetic data using StyleGAN. The code is based on the repository available [here]().
+- `StyleGAN/` - Code for generating synthetic data using StyleGAN. 
 
-## Synthetic Dataset
+## Datasets
+In the study we have used real data and synthetic data. 
 
-The embryo synthetic dataset containing images generated using the LDM and StyleGAN2 models can be found [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link). These images were used alongside the real dataset to train the classification models.
+The real data (training and test) can be found [here](https://zenodo.org/records/14253170). For the validation of the real data training process we used synthetic images which are available [here](https://github.com/orianapresacan/EmbryoStageGen/tree/main/Classification/data/real/validation).
+
+The synthetic data can be found [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link).
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
