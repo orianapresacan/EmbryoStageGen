@@ -36,7 +36,7 @@ NUM_CLASSES = 5
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-helpers.set_seed(123)
+helpers.set_seed(17)
 
 transforms = transforms.Compose([
     transforms.Resize((224, 224)),  
