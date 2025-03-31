@@ -55,7 +55,7 @@ def train():
     optimizer = optim.Adam(model.parameters(), lr=0.0001)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=10, threshold=0.0001)
 
-    num_epochs = 100
+    num_epochs = 200
     max_accuracy = 0  
     early_stop_counter = 0
 
