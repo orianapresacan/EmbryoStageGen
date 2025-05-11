@@ -1,6 +1,6 @@
 # Embryo Image Generation and Classification
 
-## [Paper](https://arxiv.org/abs/2412.01255) | [GitHub](https://github.com/orianapresacan/Embryo)
+## [Paper](https://www.nature.com/articles/s41598-025-94680-0) | [GitHub](https://github.com/orianapresacan/Embryo) | [GitHub GeneratedOrReal](https://github.com/AlexDorobantiu/GeneratedOrReal)
 
 <img src="./images/embryo_synthetic.jpg" width="750" height="150"/> 
 
@@ -35,6 +35,11 @@ In the study we have used real data and synthetic data.
 The real data (training and test) can be found [here](https://zenodo.org/records/14253170). For the validation of the real data training process we used synthetic images which are available [here](https://github.com/orianapresacan/EmbryoStageGen/tree/main/Classification/data/real/validation).
 
 The synthetic data can be found [here](https://drive.google.com/file/d/1egpag71fUtZTcB04Bn4mLeVo5s2jh9-W/view?usp=drive_link).
+
+## Citation:
+```
+Presacan, O., Dorobanţiu, A., Thambawita, V. et al. Merging synthetic and real embryo data for advanced AI predictions. Sci Rep 15, 9805 (2025). https://doi.org/10.1038/s41598-025-94680-0
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
